@@ -4,3 +4,6 @@ end
 Then /^I should see "([^""]*)"$/ do |text|
 assert_partial_output(text)
 end
+When /^I type "([^""]*)"$/ do |text|
+assert_partial_output(text)
+end
